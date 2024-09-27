@@ -196,7 +196,7 @@ if len(df_ofertas.index) > 0:
     <p>Encontramos alguns produtos em oferta dentro da faixa de preço desejada. Segue tabela com detalhes</p>
     {df_ofertas.to_html(index=False)}
     <p>Qualquer dúvida estou à disposição</p>
-    <p>Att., Lukas Maciel</p>
+    <p>Att., Lucas Boni</p>
     """
     
     mail.Send()
